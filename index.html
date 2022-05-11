@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>FORMULARIO</title>
+        <style>
+            body {background-image: url(https://i0.wp.com/cms.babbel.news/wp-content/uploads/2021/07/wm_brazil2.png?resize=640%2C360);
+                  background-repeat: repeat-x;
+                  background-size: cover;
+                  font-family: Verdana; color: rgb(252, 109, 26);
+            }
+        </style>
+    </head>
+    <body>
+        <form name="miform" action="#" method="get">
+           Ingresa tu nombre pa: <input type="text" name="nbre_alu" required>
+           <br>
+           <br>
+               Ingresa tu edad animal <input type="number" name="edad_alu" min="18" max="30" required>
+           <br>
+           <br>
+               Selecciona tu division mostro:
+           <br>
+               "QUINTA"  <input type="radio" name="div" value="QUINTA" checked>
+               "RESERVA" <input type="radio" name="div" value="RESERVA">
+               "PRIMERA" <input type="radio" name="div" value="PRIMERA">
+           <br>
+           <br>
+               Seleccione deporte:
+           <br>
+               Futbol  <input type="checkbox" name="dpte" value="Futbol">
+               Voley   <input type="checkbox" name="dpte" value="Voley">
+               Básquet <input type="checkbox" name="dpte" value="Básquet">
+           <br>
+           <br>
+               Ingresa tu insta bro: <input type="url" name="irl_alu" required>
+           <br>
+           <br>
+               Ingresa tu correo crack: <input type="email" name="correo_alu" required>
+           <br>
+           <br>
+              <textarea readonly="">Completa los datos</textarea>
+           <br>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Borrar">
+ 
+        </form>
+    </body>
+</html>
